@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: "Macondo", cursive;
+}
+
+/* NAVIGATION BAR */
+header {
+  padding-top: 15px;
+  padding-left: 10px;
+  background-color: black;
+}
+
+.logo {
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+#navbarSupportedContent {
+  padding-left: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 545px) {
+  .navbar-brand {
+    font-size: 1em;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    font-size: 0.75em;
+  }
+  .logo {
+    width: 20%;
+  }
+}
+/* END NAVIGATION BAR */
+
+/* MAIN */
+.banner {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding-top: 60px;
+  color: yellow;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+h4 {
+  padding-top: 30px;
+}
+
+p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+#paragraphe {
+  padding: 0;
+  text-align: start;
+}
+
+.fa-arrow-right {
+  color: yellow;
+  padding-bottom: 30px;
+}
+
+.lien-inscription {
+  cursor: pointer;
+  padding-left: 10px;
+  color: green;
+}
+/* MAIN */
+
+/* FOOTER */
+footer {
+  background-color: black;
+  padding-top: auto;
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: yellow;
+}
+
+.footerBox {
+  min-width: 360px;
+  padding: 20px 0 10px 0;
+}
+
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 2.5em;
+}
+
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
+}
+
+#copyright {
+  font-size: x-small;
+  text-align: right;
+}
+/* END FOOTER */
